@@ -1,0 +1,72 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyODsscdTg2lkMYuevJYnH1S",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Meleknz/Math-2024-25-Winter/blob/main/assigment\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "a14hTBrucYVX"
+      },
+      "outputs": [],
+      "source": [
+        "import numpy as np\n",
+        "\n",
+        "# Verilen A matrisi\n",
+        "A = np.array([[2, 3, 1],\n",
+        "              [1, 4, 0],\n",
+        "              [3, 2, 1]])\n",
+        "\n",
+        "# A matrisinin determinantını hesaplayalım\n",
+        "det_A = np.linalg.det(A)\n",
+        "det_A\n",
+        "# Verilen B, C ve D matrisleri\n",
+        "B = np.array([[2, 3, 1],\n",
+        "              [1, 4, 0],\n",
+        "              [3, 2, 0]])\n",
+        "\n",
+        "C = np.array([[2, 3, 1, 4],\n",
+        "              [1, 0, 0, 6],\n",
+        "              [3, 2, 1, 5],\n",
+        "              [2, 1, 4, 0]])\n",
+        "\n",
+        "D = np.array([[2, 3, 1, 4, 5],\n",
+        "              [1, 4, 0, 0, 7],\n",
+        "              [3, 0, 0, 0, 0],\n",
+        "              [2, 1, 4, 3, 2],\n",
+        "              [1, 2, 3, 4, 5]])\n",
+        "\n",
+        "# Determinantlarını hesaplayalım\n",
+        "det_B = np.linalg.det(B)\n",
+        "det_C = np.linalg.det(C)\n",
+        "det_D = np.linalg.det(D)\n",
+        "\n",
+        "det_B, det_C, det_D\n"
+      ]
+    }
+  ]
+}
